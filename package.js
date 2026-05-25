@@ -24,7 +24,7 @@ Package.onTest(function(api) {
 
 function configurePackage(api) {
   if(api.versionsFrom) {
-    api.versionsFrom('METEOR@1.2');
+    api.versionsFrom('METEOR@3.4');
   }
 
   api.use(['webapp', 'underscore'], ['server']);
